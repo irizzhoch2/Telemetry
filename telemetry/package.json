@@ -10,7 +10,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "electron:serve": "concurrently -k \"cross-env BROWSER=none yarn dev\" \"yarn electron:start\"",
-    "electron:build": "",
     "electron:start": "wait-on tcp:5173 && electron ."
   },
   "dependencies": {
